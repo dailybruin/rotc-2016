@@ -1,3 +1,21 @@
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -22,6 +40,11 @@ time, mark, audio, video {
 
 html {
   line-height: 1;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	: 1.5px;
 }
 
 ol, ul {
@@ -106,12 +129,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
-/*.stories {
+.stories {
 	display: none;
-
 }
 
-*/
+
+
 
 
 
