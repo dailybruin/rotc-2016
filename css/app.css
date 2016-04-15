@@ -1,4 +1,12 @@
 
+.story-title {
+	position: absolute;
+	top: 80%;
+	width: 1300px;
+	background-color: rgba(192,192,192,0.7);
+}
+
+
 #container{
 	width: 100%;
     position: relative;
