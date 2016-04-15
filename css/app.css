@@ -22,10 +22,15 @@
 }
 #nav_right {
 	position: absolute;
-    left: 22em;
     top: 5em;
 }
 
+.leftie{
+	float: left;
+}
+.rightie{
+	float: right;
+}
 
 .pullquote {
 	float: left;
