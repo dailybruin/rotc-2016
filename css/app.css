@@ -11,29 +11,63 @@
 	width: 100%;
     position: relative;
 }
-#nav {
-	width: 100%;
-	position: fixed;
+
+.nav {
+	padding-left: 0;
 }
+
 #wrap {
 	position: relative;
 	width: 100%;
 }
-#nav_left, #nav_right{
+.nav_left, .nav_right{
     max-width: 10px;
     font-size: 200%;
-}
-#nav_left {
-	position: absolute;
-/*    left: 1em;*/
-    top: 5em;
-}
-#nav_right {
-	position: absolute;
-    left: 22em;
+    position: fixed;
     top: 5em;
 }
 
+.leftie {
+	text-align: left;
+}
+
+.rightie {
+	text-align: right;
+}
+
+.row {
+	padding: 40px;
+}
+
+.home {
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.home:hover {
+	text-decoration: underline;
+}
+
+.toast {
+	display: none;
+	color: #996e00;
+	padding: 5px;
+	box-shadow: inset 0 0 0 1px rgba(37, 40, 43, 0.1);
+	background-color: #fffdec;
+	max-width: 16%;
+	position: absolute;
+	border-radius: 3px;
+}
+
+.toastLeft {
+	position: fixed;
+	left: 1.6%;
+}
+
+.toastRight {
+	position: fixed;
+	right: 1.6%;
+}
 
 .pullquote {
 	float: left;
