@@ -1,4 +1,35 @@
 
+<<<<<<< HEAD
+=======
+#container{
+	width: 100%;
+    position: relative;
+}
+#nav {
+	width: 100%;
+	position: fixed;
+}
+#wrap {
+	position: relative;
+	width: 100%;
+}
+#nav_left, #nav_right{
+    max-width: 10px;
+    font-size: 200%;
+}
+#nav_left {
+	position: absolute;
+/*    left: 1em;*/
+    top: 5em;
+}
+#nav_right {
+	position: absolute;
+    left: 22em;
+    top: 5em;
+}
+
+
+>>>>>>> e8a70e99f37e1abc5a712956058ecd3a50171893
 .pullquote {
 	float: left;
 	width: 250px;
