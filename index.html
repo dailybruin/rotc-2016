@@ -29,10 +29,14 @@
 	</head>
 
   <body>
-  <div class="container">
+  <div class="container active">
       <div id="slick">
         <div>
           <div class="img--holder story" id="one" style="background-image: url(http://placehold.it/1920x1080);"><a href="/"></a></div>
+          <div class="story-title" id="title-one">
+            <h1>Big ROTC Story Feature</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+          </div>
         </div>
         <div>
           <div class="img--holder story" id="two" style="background-image: url(http://placehold.it/1920x1080/849695/ffffff);"></div>
@@ -46,25 +50,19 @@
     <!-- Floating arrows as nav on the side -->
 
     <div class="row stories" id="story_one">
-      <div>
-        <div id="nav">
-            <div id="wrap">
-            <div class="small-2 columns leftie">
-              <a href="#feature-2"><span id="nav_left"><i class="fa fa-angle-left" aria-hidden="true"></i>
-</span></a>
-            </div>
-            <div class="small-2 columns rightie">
-              <a href="#"><span id="nav_right"><i class="fa fa-angle-right" aria-hidden="true"></i>
-</span></a>
-            </div>
-            </div>
-        </div>
-      </div>
-
     <!-- Main article with general photos interspersed -->
-    <div class="row">
-
-      <div class="large-6 large-centered columns">
+      <div class="home"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</div>
+      <div class="large-3 small-2 columns nav leftie"> 
+        &nbsp;
+        <a curr="one" dest= "three" class="nav_left" href="#">
+          <i class="fa fa-angle-left" aria-hidden="true"> </i> 
+        </a>
+        <center>
+          <div class="toast toastLeft">
+          </div>
+        </center>
+      </div>
+      <div class="main large-6 small-8 small-centered large-centered columns">
         <h2>Main story</h2>
 
         <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
@@ -83,15 +81,35 @@
         </div>
 
         <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
-
-        </div>
+      </div>
+      <div class="large-3 small-2 columns nav rightie"> 
+        &nbsp;
+        <a curr="one" dest="two" class="nav_right" href="#">
+          <i class="fa fa-angle-right" aria-hidden="true"> </i> 
+        </a>
+        <center>
+          <div class="toast toastRight">
+          </div>
+        </center>
       </div>
     </div>
 
     <!-- Side Story with Photo Essays -->
 
     <div class="row stories" id="story_two">
-      <div class="large-6 large-centered columns">
+      <div class="home"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</div>
+      <div class="large-3 small-2 columns nav leftie"> 
+        &nbsp;
+        <a curr="two" dest= "one" class="nav_left" href="#">
+          <i class="fa fa-angle-left" aria-hidden="true"> </i> 
+        </a>
+        <center>
+          <div class="toast toastLeft">
+          </div>
+        </center>
+      </div>
+
+      <div class="main large-6 small-8 small-centered large-centered columns">
 
         <h2>Feature 2: Side Story with Photo Essays</h2>
 
@@ -128,15 +146,36 @@
         </div>
 
         <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
+      </div>
 
-
+      <div class="large-3 small-2 columns nav rightie"> 
+        &nbsp;
+        <a curr="two" dest="three" class="nav_right" href="#">
+          <i class="fa fa-angle-right" aria-hidden="true"> </i> 
+        </a>
+        <center>
+          <div class="toast toastRight">
+          </div>
+        </center>
       </div>
     </div>
 
 
     <div class="row stories" id="story_three">
-      <div class="large-6 large-centered columns">
+      <div class="home"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</div>
+      <div class="large-3 small-2 columns nav leftie"> 
+        &nbsp;
+        <a curr="three" dest= "two" class="nav_left" href="#">
+          <i class="fa fa-angle-left" aria-hidden="true"> </i> 
+        </a>
+        <center>
+          <div class="toast toastLeft">
+          </div>
+        </center>
+      </div>
 
+      <div class="main large-6 small-8 small-centered large-centered columns">
+        <h2>Story Three</h2>
         <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
 
         <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
@@ -170,8 +209,17 @@
         </div>
 
         <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
+      </div>
 
-
+      <div class="large-3 small-2 columns nav rightie"> 
+        &nbsp;
+        <a curr="three" dest="one" class="nav_right" href="#">
+          <i class="fa fa-angle-right" aria-hidden="true"> </i> 
+        </a>
+        <center>
+          <div class="toast toastRight">
+          </div>
+        </center>
       </div>
     </div>
 
@@ -244,11 +292,76 @@
     <script src="js/index.js"></script>
 
     <script>
+    var stories = {
+      "one": "Title One goes here",
+      "two": "Title Two goes here",
+      "three": "Title Three goes here"
+    };
+
     $(".story").click(function(){
       var storynum = $(this).attr("id");
-      $('.container').fadeOut("slow");
-      $("#story_" + storynum).delay(800).fadeIn();
+      $('.container').removeClass("active").fadeOut(600);
+      $("#story_" + storynum).delay(900).fadeIn(900).addClass("active");
     });
+    $(".nav_left").css("top", $(window).height()/2 - 50);
+    $(".nav_right").css("top", $(window).height()/2 - 50);
+
+    $(".nav_left").mouseenter(function() {
+      var destStoryNum = $(this).attr("dest");
+      var toastBody = stories[destStoryNum];
+      $(".active .toastLeft").css("bottom", $(window).height()/20);
+      $(".active .toastLeft").html(toastBody).show();
+      // show left toast
+    });
+
+    $(".home").css("top", $(window).height()/20);
+
+    $(".nav_left").mouseleave(function() {
+      var destStoryNum = $(this).attr("dest");
+      var toastBody = stories[destStoryNum];
+      console.log("hiding", toastBody);
+      $(".active .toastLeft").hide();
+      // hide left toast
+    });
+
+    $(".nav_right").mouseenter(function() {
+      var destStoryNum = $(this).attr("dest");
+      var toastBody = stories[destStoryNum];
+      $(".active .toastRight").css("bottom", $(window).height()/20);
+      $(".active .toastRight").html(toastBody).show();
+      // show right toast
+    });
+
+    $(".nav_right").mouseleave(function() {
+      var destStoryNum = $(this).attr("dest");
+      var toastBody = stories[destStoryNum];
+      $(".active .toastRight").hide();
+      // hide right toast
+    });
+
+    $(".nav_left").click(function() {
+      var destStoryNum = $(this).attr("dest");
+      var curStoryNum = $(this).attr("curr");
+      $(".active .toast").hide();
+      $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
+      $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
+      return false;
+    }); 
+
+    $(".nav_right").click(function() {
+      var destStoryNum = $(this).attr("dest");
+      var curStoryNum = $(this).attr("curr");
+      $(".active .toast").hide();
+      $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
+      $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
+      return false;
+    });
+
+    $(".home").click(function() {
+      $(".active").fadeOut(600).removeClass(".active");
+      $(".container").addClass("active").show().hide().delay(1200).fadeIn("slow");
+    });
+
   </script>
     
   </body>
