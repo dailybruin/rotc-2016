@@ -1262,7 +1262,8 @@ li {
 
 ul {
   list-style-type: disc;
-  margin-left: 1.25rem; }
+  /*margin-left: 1.25rem; */
+}
 
 ol {
   margin-left: 1.25rem; }

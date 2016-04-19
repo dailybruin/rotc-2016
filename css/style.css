@@ -111,9 +111,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: pointer;
 }
 
+.text{
+  padding: 100px;
+}
+
 .stories {
 	display: none;
 }
 
+#title-one {
+
+}
 
 
