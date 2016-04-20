@@ -65,10 +65,6 @@
     <!-- Main article with general photos interspersed -->
       <center>
         <div class="row top-nav">
-          <div class="columns large-3 small-3 DBHome"><i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>Daily Bruin</div>
-          <div class="columns large-3 small-3 home"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</div>
-          <div class="columns large-3 small-3 gallery"><i class="fa fa-soundcloud" aria-hidden="true">&nbsp;</i><a href="audio.html">Radio Story</a></div>
-
           <div class="columns large-4 small-4 DBHome"><span class="nav-links"><i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>Daily Bruin</span></div>
           <div class="columns large-4 small-4 home"><span class="nav-links"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</span></div>
           <div class="columns large-4 small-4 radio"><span class="nav-links"><i class="fa fa-soundcloud" aria-hidden="true">&nbsp;</i>Radio Story</span></div>
@@ -744,23 +740,23 @@
       // hide right toast
     });
 
-    $(".nav_left").click(function() {
-      var destStoryNum = $(this).attr("dest");
-      var curStoryNum = $(this).attr("curr");
-      $(".active .toast").hide();
-      $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
-      $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
-      return false;
-    }); 
+    // $(".nav_left").click(function() {
+    //   var destStoryNum = $(this).attr("dest");
+    //   var curStoryNum = $(this).attr("curr");
+    //   $(".active .toast").hide();
+    //   $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
+    //   $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
+    //   return false;
+    // }); 
 
-    $(".nav_right").click(function() {
-      var destStoryNum = $(this).attr("dest");
-      var curStoryNum = $(this).attr("curr");
-      $(".active .toast").hide();
-      $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
-      $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
-      return false;
-    });
+    // $(".nav_right").click(function() {
+    //   var destStoryNum = $(this).attr("dest");
+    //   var curStoryNum = $(this).attr("curr");
+    //   $(".active .toast").hide();
+    //   $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
+    //   $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
+    //   return false;
+    // });
 
     $(".home span").click(function() {
       $(".active").fadeOut(600).removeClass(".active");

@@ -27,18 +27,15 @@
 	</head>
 
 	<body>
-		
-	
 	
 
 		<!-- Radio Story: Cadet Diary -->
     <div class="row transcript" id="radio_story">
     <center>
         <div class="row top-nav">
-          <div class="columns large-3 small-3 DBHome"><i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>Daily Bruin</div>
-          <div class="columns large-3 small-3 home"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</div>
-          <div class="columns large-3 small-3 gallery"><i class="fa fa-photo" aria-hidden="true">&nbsp;</i>Photo Gallery</div>
-          <div class="columns large-3 small-3 gallery"><i class="fa fa-soundcloud" aria-hidden="true">&nbsp;</i><a href="audio.html">Radio Story</a></div>
+          <div class="columns large-4 small-4 DBHome"><span class="nav-links"><i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>Daily Bruin</span></div>
+          <div class="columns large-4 small-4 home"><span class="nav-links"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</span></div>
+          <div class="columns large-4 small-4 radio"><span class="nav-links"><i class="fa fa-soundcloud" aria-hidden="true">&nbsp;</i>Radio Story</span></div>
         </div>
       </center>
 
@@ -247,6 +244,21 @@
 		$("#tab1").css("background-color", "#F5F5F5");
 		$("#tab2").css("background-color", "#F5F5F5");
 	});
+
+	$(".home span").click(function() {
+      $(".active").fadeOut(600).removeClass(".active");
+      window.location = "index.html";
+    });
+
+    $(".DBHome span").click(function() {
+      $(".active").fadeOut(600).removeClass(".active");
+      window.location = "http://www.dailybruin.com";
+    });
+
+    $(".radio span").click(function() {
+      $(".active").fadeOut(600).removeClass(".active");
+      window.location = "audio.html";
+    });
 </script>
 
 
