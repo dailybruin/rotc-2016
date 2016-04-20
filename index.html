@@ -755,23 +755,23 @@
       // hide right toast
     });
 
-    $(".nav_left").click(function() {
-      var destStoryNum = $(this).attr("dest");
-      var curStoryNum = $(this).attr("curr");
-      $(".active .toast").hide();
-      $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
-      $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
-      return false;
-    }); 
+    // $(".nav_left").click(function() {
+    //   var destStoryNum = $(this).attr("dest");
+    //   var curStoryNum = $(this).attr("curr");
+    //   $(".active .toast").hide();
+    //   $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
+    //   $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
+    //   return false;
+    // }); 
 
-    $(".nav_right").click(function() {
-      var destStoryNum = $(this).attr("dest");
-      var curStoryNum = $(this).attr("curr");
-      $(".active .toast").hide();
-      $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
-      $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
-      return false;
-    });
+    // $(".nav_right").click(function() {
+    //   var destStoryNum = $(this).attr("dest");
+    //   var curStoryNum = $(this).attr("curr");
+    //   $(".active .toast").hide();
+    //   $("#story_" + curStoryNum).fadeOut(600).removeClass("active");
+    //   $("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
+    //   return false;
+    // });
 
     $(".home span").click(function() {
       $(".active").fadeOut(600).removeClass(".active");
