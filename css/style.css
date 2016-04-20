@@ -141,8 +141,14 @@ article, aside, details, figure, footer, header, hgroup, main, menu, nav, sectio
 .tab-title {
   background-color: #F5F5F5;
 }
+.tab-title a{
+	color: #83894D;
+}
 .tab-title-r{
   background-color: #F5F5F5;
+}
+.tab-title-r a{
+	color: #606437;
 }
 
 ul{
@@ -160,18 +166,80 @@ ul{
   font-size: 22px;
   margin-left: -4px;
   position: relative;
-  width:75px;
+  width: 227px;
   height: 40px;
   text-align: center;
+  font-family: 'Patua One', cursive;
   /*border-radius: 15px 50px 30px 5px;*/
 }
 .tab-title-r {
   font-size: 22px;
   margin-left: -4px;
   position: relative;
-  width:90px;
+  width: 340px;
   height: 40px;
   text-align: center;
+  font-family: 'Patua One', cursive;
+}
+#linebreak {
+	text-align: center;
+	font-style: bold;
+}
+.content {
+	font-family: 'Lato', sans-serif;
+}
+.verb {
+	font-family: monospace;
+	
+}
+.paren {
+	font-style: italic;
+}
+#refer {
+	font-family: 'Roboto Slab', serif;
+/*	line-height: 95%;*/
+	padding: 10px;
+}
+.aside {
+	text-align: center;
+	font-family: monospace;
+}
+.section {
+	font-family: 'Patua One', cursive;
+	font-size: 2.0em;
+}
+.stripe {
+	width: 100%;
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+.stripe p {
+	color: white;
+	margin: 0;
+}
+.script {
+	padding: 15px;
+}
+.speaker {
+	font-family: 'Patua One', cursive;
+}
+#alarkon {
+	background-color: #606437;
+}
+#maggio {
+	background-color: #849E5D;
+}
+#ikejiri {
+	background-color: #AC9E6B;
+}
+#johnson {
+	background-color: #736A48;
+}
+#delemos {
+	background-color: #83894D;
+}
+#mcdonald {
+	background-color: #A8B063;
 }
 
 #tab1 {
@@ -180,7 +248,7 @@ ul{
 #r1 {
   background-color: #DCDCDC;
 }
-
+	
 #panel1 {
   background-color: #8FBC8F;
   padding: 20px;
@@ -189,13 +257,27 @@ figure {
 	width: 100%;
 	margin: 0;
 }
+figure .image {
+	position: relative;
+	z-index: -1;
+}
+figure .credit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 4px;
+    font-size: 0.7em;
+    font-family: monospace, monospace;
+    background-color: rgba(0,0,0, 0.25);
+    color: rgba(255,255,255, 0.75);
+}
 #radio1 {
 }
 #radio2 {
   display: none;
 }
 
-#figcaption { 
+figcaption { 
   padding-top: 5px;
   font-style: italic;
   display: block;
@@ -205,7 +287,7 @@ figure {
 }
 
 #transcript {
-  background-color: #DCDCDC;
+  /*background-color: #DCDCDC;*/
   padding: 20px;
 }
 
