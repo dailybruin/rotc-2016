@@ -121,8 +121,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .tab-title {
   background-color: #F5F5F5;
-  margin:0px;
-  padding:0;
+}
+.tab-title-r{
+  background-color: #F5F5F5;
 }
 
 ul{
@@ -137,34 +138,55 @@ ul{
 }
 
 .tab-title {
+  font-size: 22px;
   margin-left: -4px;
   position: relative;
-  width:60px;
+  width:75px;
+  height: 40px;
   text-align: center;
-  border-radius: 15px 50px 30px 5px;
+  /*border-radius: 15px 50px 30px 5px;*/
+}
+.tab-title-r {
+  font-size: 22px;
+  margin-left: -4px;
+  position: relative;
+  width:90px;
+  height: 40px;
+  text-align: center;
 }
 
 #tab1 {
   background-color: #DCDCDC;
 }
+#r1 {
+  background-color: #DCDCDC;
+}
 
-#panel1 {
-  background-color: #8FBC8F;
+#radio1 {
+}
+#radio2 {
+  display: none;
+}
+
+#transcript {
+  background-color: #DCDCDC;
   padding: 20px;
 }
 
+.content {
+  padding: 20px;
+}
+
+#panel1 {
+  background-color: #DCDCDC;
+}
 #panel2 {
-  background-color: #8FBC8F;
+  background-color: #DCDCDC;
   display:none;
 }
-
 #panel3 {
-  background-color: #8FBC8F;
+  background-color: #DCDCDC;
   display:none;
-}
-
-#title-one {
-
 }
 
 
