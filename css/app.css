@@ -1,4 +1,12 @@
 
+.story-title {
+	position: absolute;
+	top: 80%;
+	width: 1300px;
+	background-color: rgba(192,192,192,0.7);
+}
+
+
 #container{
 	width: 100%;
     position: relative;
@@ -145,8 +153,8 @@
 }
 
 .caption_full p {
-	margin-left: auto;
-	margin-right: auto;
+	text-align:center;
+	font-size: 1em;
 	padding-bottom: 10px; 
 	padding-top: 10px;
 	float: center;
@@ -197,6 +205,13 @@
 		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
+	}
+	.caption_full p {
+		text-align:center;
+		font-size: 0.8em;
+		padding-bottom: 10px; 
+		padding-top: 10px;
+		float: center;
 	}
 }
 
@@ -249,6 +264,13 @@
 		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
+	}
+	.caption_full p {
+		text-align:center;
+		font-size: 2vmax;
+		padding-bottom: 10px; 
+		padding-top: 10px;
+		float: center;
 	}
 }
 
