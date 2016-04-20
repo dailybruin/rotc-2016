@@ -52,7 +52,7 @@ a img {
   border: none;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, details, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -120,6 +120,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .header-one {
 	padding: 100px;
 }
+.header-two {
+	padding: 650px 60px 100px 600px;
+	color: white;
+}
 #title {
 	font-family: 'Patua One', cursive;
 	line-height: 90%;
@@ -166,6 +170,11 @@ ul{
 #panel1 {
   background-color: #8FBC8F;
   padding: 20px;
+}
+figure {
+	width: 100%;
+	margin: 0;
+}
 
 figcaption { 
   padding-top: 5px;
