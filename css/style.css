@@ -112,10 +112,12 @@ article, aside, details, figure, footer, header, hgroup, main, menu, nav, sectio
 }
 
 .subheader-one {
-	padding: 380px 100px 100px 100px;
+	padding: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+
 }
 .subheader-one p{
-	color: white;
+	color: black;
 }
 .header-one {
 	padding: 100px;
