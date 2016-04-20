@@ -61,7 +61,8 @@
 	margin-top: 50px;
 }
 
-.home:hover {
+.nav-links:hover {
+	cursor: pointer;
 	text-decoration: underline;
 }
 
@@ -194,6 +195,31 @@
 	padding-top: 10px;
 	float: center;
 }
+
+.my-gallery {
+	width: 100%;
+	text-align: center;
+}
+
+.inner-gallery {
+	width: 620px !important;
+	margin: auto;
+}
+
+
+/* photo gallery */ 
+
+.wide {
+	height: 100px !important;
+}
+
+.tall {
+	height: 210px !important;
+}
+
+
+/* photo gallery stuff end */
+
 
 @media only screen and (max-width: 40em) {
 	.pullquote-left {
