@@ -119,11 +119,22 @@ article, aside, details, figure, footer, header, hgroup, main, menu, nav, sectio
 .subheader-one p{
 	color: black;
 }
+
+.read-more-button {
+  padding: 10px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0,1);
+  text-align: center;
+}
+.read-more-button b{
+  color: white;
+}
+
 .header-one {
 	padding: 100px;
 }
 .header-two {
-	padding: 650px 60px 100px 600px;
+	padding: 450px 60px 100px 200px;
 	color: white;
 }
 #title {
