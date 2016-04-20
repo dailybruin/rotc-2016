@@ -111,6 +111,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: pointer;
 }
 
+.subheader-one {
+	padding: 380px 100px 100px 100px;
+}
+.subheader-one p{
+	color: white;
+}
+.header-one {
+	padding: 100px;
+}
+#title {
+	font-family: 'Patua One', cursive;
+	line-height: 90%;
+	padding-bottom: 15px;
+}
+
 .text{
   padding: 100px;
 }
@@ -161,10 +176,6 @@ ul{
 #panel3 {
   background-color: #8FBC8F;
   display:none;
-}
-
-#title-one {
-
 }
 
 
