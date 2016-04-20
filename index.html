@@ -703,8 +703,11 @@
 
     $(".story").click(function(){
       var storynum = $(this).attr("id");
-      $('.container').removeClass("active").fadeOut(600);
-      $("#story_" + storynum).delay(900).fadeIn(900).addClass("active");
+      if (storynum === "one"){
+        $('.container').removeClass("active").fadeOut(600);
+        $("#story_" + storynum).delay(900).fadeIn(900).addClass("active");
+      }
+      
     });
     $(".nav_left").css("top", $(window).height()/2 - 50);
     $(".nav_right").css("top", $(window).height()/2 - 50);
