@@ -119,6 +119,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 	display: none;
 }
 
+.tab-title {
+  background-color: #F5F5F5;
+  margin:0px;
+  padding:0;
+}
+
+ul{
+  padding:0;
+  margin:0;
+  display:inline;
+}
+
+.tabs{
+  padding: 0;
+  margin: 0;
+}
+
+.tab-title {
+  margin-left: -4px;
+  position: relative;
+  width:60px;
+  text-align: center;
+  border-radius: 15px 50px 30px 5px;
+}
+
+#tab1 {
+  background-color: #DCDCDC;
+}
+
+#panel1 {
+  background-color: #8FBC8F;
+  padding: 20px;
+}
+
+#panel2 {
+  display:none;
+}
+
+#panel3 {
+  display:none;
+}
+
 #title-one {
 
 }
