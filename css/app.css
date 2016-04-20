@@ -86,15 +86,33 @@
 	right: 1.6%;
 }
 
-.pullquote {
+.pullquote-left {
 	float: left;
-	width: 250px;
+	width: 320px;
 	background: url("img/pullquote.png");
-	padding: 13px;
-	margin: 10px 15px 0px -200px;
+	padding: 3px;
+	margin: 0px 15px 0px -130px;
 }
 
-.pullquote p {
+.pullquote-right {
+	float: right;
+	width: 320px;
+	background: url("img/pullquote.png");
+	padding: 3px;
+	margin: 0px -130px 0px 15px;
+}
+
+.pullquote-left p {
+	color: black;
+	line-height: 90%;
+	font-weight: bold;
+	font-size: 26px;
+	font-style: italic;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.pullquote-right p {
 	color: black;
 	line-height: 90%;
 	font-weight: bold;
@@ -178,7 +196,14 @@
 }
 
 @media only screen and (max-width: 40em) {
-	.pullquote {
+	.pullquote-left {
+		width: 100%;
+		display: block;
+		margin: 30px 0px 50px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	.pullquote-right {
 		width: 100%;
 		display: block;
 		margin: 30px 0px 50px 0px;
@@ -233,14 +258,24 @@
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em){
-	.pullquote {
+	.pullquote-left {
 		width: 100%;
 		display: block;
 		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
 	}
-	.pullquote p {
+	.pullquote-right {
+		width: 100%;
+		display: block;
+		margin: 30px 0px 50px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	.pullquote-left p {
+		display: block;
+	}
+	.pullquote-right p {
 		display: block;
 	}
 
