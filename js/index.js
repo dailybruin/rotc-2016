@@ -136,6 +136,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         items = parseThumbnailElements(galleryElement);
 
+        // Fix problem where it switches to radio page when gallery is closed
+        $(".columns.large-4.small-4.radio").css("pointer-events", "none");
+
         // define options (if needed)
         options = {
 
@@ -183,6 +186,14 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        
+        gallery.listen('close', function() {
+            // console.log("hey julien");
+            setTimeout(function() {
+                $(".columns.large-4.small-4.radio").css("pointer-events", "all");
+            }, 500);
+        });
+
         gallery.init();
     };
 
@@ -203,3 +214,10 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 // execute above function
 initPhotoSwipeFromDOM('.my-gallery');
+
+
+
+// Fix problem where it switches to radio page when gallery is closed
+// $(document).on('click', '.pswp__button.pswp__button--close' , function(){
+//     
+// });
