@@ -551,7 +551,7 @@
       </center>
 
       <!-- navigation left arrow -->
-      <!-- <div class="large-2 small-2 columns nav leftie"> 
+      <div class="large-2 small-2 columns nav leftie"> 
         &nbsp;
         <a curr="one" dest= "three" class="nav_left" href="#">
           <i class="fa fa-angle-left" aria-hidden="true"> </i> 
@@ -560,7 +560,7 @@
           <div class="toast toastLeft">
           </div>
         </center>
-      </div> -->
+      </div>
 
       <div class="main small-11 small-centered columns text-center">
 
@@ -574,7 +574,7 @@
             <div class="ps-content">
               <h2>Bernhard</h2>
               <span class="ps-price">£100</span>
-              <p>With restful springiness in the seat; prevents static sitting and provides enhanced seating comfort. Padded seat and back for enhanced seating comfort. Soft, hardwearing and easy care leather, which ages gracefully.</p>
+              <p>With restful springiness in the seat; prevents static sitting and provides enhanced seating comfort. Padded seat and back for enhanced seating comfort. Soft, hardwearing and easy care leather, which ages gracefully.ith restful springiness in the seat; prevents static sitting and provides enhanced seating comfort. Padded seat and back for enhanced seating comfort. Soft, hardwearing and easy care leather, which ages gracefully.ith restful springiness in the seat; prevents static sitting and provides enhanced seating comfort. Padded seat and back for enhanced seating comfort. Soft, hardwearing and easy care leather, which ages gracefully.ith restful springiness in the seat; prevents static sitting and provides enhanced seating comfort. Padded seat and back for enhanced seating comfort. Soft, hardwearing and easy care leather, which ages gracefully.</p>
               <a href="http://www.ikea.com/gb/en/catalog/products/80163804/#/60203882">Buy this item</a>
             </div>
             
@@ -627,21 +627,20 @@
           </div><!-- /ps-slidewrapper -->
           
         </section><!-- /ps-container -->
-      
 
       </div>
 
       <!-- navigation right arrow -->
-     <!--  <div class="large-3 small-2 columns nav rightie"> 
+      <div class="large-3 small-2 columns nav rightie"> 
         &nbsp;
-        <a curr="two" dest="three" class="nav_right" href="#">
+        <a curr="two" dest="three" class="nav_right" href="#" style="right:50px;">
           <i class="fa fa-angle-right" aria-hidden="true"> </i> 
         </a>
         <center>
           <div class="toast toastRight">
           </div>
         </center>
-      </div> -->
+      </div>
     </div>
 
 
@@ -793,6 +792,9 @@
       if (storynum === "one" || storynum === "two"){
         $('.container').removeClass("active").fadeOut(600);
         $("#story_" + storynum).delay(900).fadeIn(900).addClass("active");
+        if(storynum === "two"){
+          $("#story_" + storynum).css("display", "initial");
+        }
       }
       
     });
