@@ -54,7 +54,7 @@
 	width: 100%;
 	background-color: rgba(255,255,255,0.95);
 	margin-top: -40px;
-	margin-left: -15px;
+	margin-left: -5% !important;
 }
 
 .main {
@@ -472,3 +472,70 @@ footer {
 }
 
 /* Portrait story stuff end */
+
+
+/* comparison page css */
+
+.wrapper {
+  width: 680px;
+  margin: auto;
+  padding-top: 85px;
+}
+
+/* Image carousel */
+
+#image-carousel {
+  height: 350px;
+  border-radius: 0;
+  overflow: hidden;
+  cursor: move;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  position: relative;
+}
+
+#image-carousel:active {
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+#image-carousel .handle {
+  width: 100%;
+  height: 400%;
+  border-radius: 0;
+}
+
+#image-carousel .handle .slide {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 25%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#image-carousel .pagination {
+  position: absolute;
+  z-index: 1000;
+  left: 5px;
+  top: 5px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#image-carousel .pagination li {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  margin: 3px;
+  cursor: pointer;
+}
+
+#image-carousel .pagination li.active-slider {
+  background: #fff;
+}
+
+/* comparison css end */
