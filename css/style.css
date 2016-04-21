@@ -176,38 +176,26 @@ ul{
 }
 
 .tab-title {
-  font-size: ;
+  font-size: 22px;
   margin-left: -4px;
   position: relative;
-  width: 227px;
+  width: 33%;
   height: 40px;
   text-align: center;
   font-family: 'Patua One', cursive;
   /*border-radius: 15px 50px 30px 5px;*/
 }
 .tab-title-r {
-  font-size: 19px;
+  font-size:22px;
   margin-left: -4px;
   position: relative;
   width: 50%;
   height: 40px;
   text-align: center;
   font-family: 'Patua One', cursive;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 @media only screen and (max-width: 45em) {
-    .tab-title {
-      font-size: 22px;
-      margin-left: -4px;
-      position: relative;
-      width: 227px;
-      height: 40px;
-      text-align: center;
-      font-family: 'Patua One', cursive;
-      /*border-radius: 15px 50px 30px 5px;*/
-    }
     .tab-title-r {
       font-size: 20px;
       margin-left: -4px;
@@ -216,22 +204,10 @@ ul{
       height: 40px;
       text-align: center;
       font-family: 'Patua One', cursive;
-      top: 50%;
-      transform: translateY(-50%);
     }
 }
 
-@media only screen and (min-width: 45.063em) and (max-width: 7em){
-      .tab-title {
-        font-size: 22px;
-        margin-left: -4px;
-        position: relative;
-        width: 227px;
-        height: 40px;
-        text-align: center;
-        font-family: 'Patua One', cursive;
-        /*border-radius: 15px 50px 30px 5px;*/
-      }
+@media only screen and (min-width: 45.063em) and (max-width: 72em){
       .tab-title-r {
         font-size: 19px;
         margin-left: -4px;
@@ -240,8 +216,6 @@ ul{
         height: 40px;
         text-align: center;
         font-family: 'Patua One', cursive;
-        top: 50%;
-        transform: translateY(-50%);
       }
 }
 #linebreak {
