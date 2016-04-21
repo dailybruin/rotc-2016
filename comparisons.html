@@ -32,18 +32,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-
 	</head>
 
 	<body>
-	
-
 		<!-- Radio Story: Cadet Diary -->
 		<div class="row transcript" id="comparisons-story">
 			<div class="row top-nav">
 				<div class="columns large-4 small-4 DBHome"><span class="nav-links"><i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>Daily Bruin</span></div>
 				<div class="columns large-4 small-4 home"><span class="nav-links"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</span></div>
-				<div class="columns large-4 small-4 radio"><span class="nav-links"><i class="fa fa-photo" aria-hidden="true">&nbsp;</i>When the smoke clears</span></div>
+
+				<div class="columns large-4 small-4 radio"><span class="nav-links"><i class="fa fa-photo" aria-hidden="true">&nbsp;</i>When the Smoke Clears</span></div>
 			</div>
 
 			<div class="row transcript" id="comparions">
@@ -273,19 +271,19 @@
 		});
 
 	$(".home span").click(function() {
-      $(".active").fadeOut(600).removeClass(".active");
-      window.location = "index.html";
-    });
-
-    $(".DBHome span").click(function() {
-      $(".active").fadeOut(600).removeClass(".active");
-      window.location = "http://www.dailybruin.com";
-    });
-
-    $(".radio span").click(function() {
-      $(".active").fadeOut(600).removeClass(".active");
-      window.location = "index.html";
-    });
+ 	      $(".active").fadeOut(600).removeClass(".active");
+ 	      window.location = 'index.html';
+ 	    });
+ 
+ 	    $(".DBHome span").click(function() {
+ 	      $(".active").fadeOut(600).removeClass(".active");
+ 	      window.location = "http://www.dailybruin.com";
+ 	    });
+ 
+ 	    $(".smoke-clears span").click(function() {
+ 	      	$(".active").fadeOut(600).removeClass(".active");
+ 	      	window.location = "index.html";
+ 	    });
 
 	</script>
 </html>
