@@ -1,0 +1,54 @@
+.main section {
+  background: green;
+  position: relative;
+  top: -100px;
+  z-index: -1;
+}
+
+.row {
+  padding-bottom: 0px;
+}
+
+.main {
+  margin-bottom: -100px;
+}
+
+
+.rustic-pagination {
+  position: relative;
+  top: 100px;
+  left: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+span.rustic-pagination-point {
+  box-sizing: border-box;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  opacity: .4;
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+  background: 0 0;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out
+}
+
+span.rustic-pagination-point {
+  height: 12px;
+  width: 12px;
+  margin: 8px 0
+}
+
+
+span.rustic-pagination-point.active {
+  background: #fff;
+  opacity: 1
+}
+
+span.rustic-pagination-point:hover { opacity: 1 }
+
