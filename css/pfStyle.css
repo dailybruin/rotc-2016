@@ -51,6 +51,7 @@
 	font-weight: 200;
 	font-size: 14px;
 	letter-spacing: 10px;
+	text-transform: uppercase;
 }
 
 .ps-contentwrapper {
@@ -94,8 +95,8 @@
 
 .ps-content p {
 	font-family: 'Alegreya Sans', sans-serif;
-	line-height: 26px;
-	font-size: 14px;
+	/*line-height: 26px;
+*/	font-size: 14px;
 	/*letter-spacing: 2px;*/
 	/*word-spacing: 10px;*/
 	padding: 10px 15px;
