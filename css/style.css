@@ -345,7 +345,32 @@ figure .credit {
 	visibility: visible;
 	position: absolute;
 }
-
+figure.pair {
+	position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+figure.pair h2 {
+	position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #484c61;
+    -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+    transition: transform 0.35s, color 0.35s;
+    -webkit-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+figure.pair p {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+}
 
 #radio1 {
 }
