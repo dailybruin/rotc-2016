@@ -43,21 +43,10 @@
 			<div class="row top-nav">
 				<div class="columns large-4 small-4 DBHome"><span class="nav-links"><i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>Daily Bruin</span></div>
 				<div class="columns large-4 small-4 home"><span class="nav-links"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</span></div>
-				<div class="columns large-4 small-4 radio"><span class="nav-links"><i class="fa fa-soundcloud" aria-hidden="true">&nbsp;</i>Radio Dispatches</span></div>
+				<div class="columns large-4 small-4 smoke-clears"><span class="nav-links"><i class="fa fa-soundcloud" aria-hidden="true">&nbsp;</i>When the smoke clears</span></div>
 			</div>
 
 			<div class="row transcript" id="comparions">
-
-				<div class="large-2 small-2 columns nav leftie"> 
-					&nbsp;
-					<a curr="one" dest= "three" class="nav_left" href="#">
-						<i class="fa fa-angle-left" aria-hidden="true"> </i> 
-					</a>
-					<center>
-						<div class="toast toastLeft">
-						</div>
-					</center>
-				</div>
 
 				<div class="main large-8 small-8 large-centered columns">
 					<div class="rustic-pagination">
@@ -118,17 +107,6 @@
 							<p>“I’ve played soccer ever since I was in second grade.  Initially I started out in baseball but then I figured out I had very little hand-eye coordination and I got hit by too many baseballs but then I found soccer and I fell in love with it ever since. I definitely like to play in the backfield; I like to get hands-on with people and jump over them and side-tackle them, legally of course.  I always really loved the game. I never even played club because it was never really in my blood to be that competitive."</p>
 						</div>
 					</section>
-				</div>
-
-				<div class="large-2 small-2 columns nav rightie"> 
-					&nbsp;
-					<a curr="one" dest="two" class="nav_right" href="#">
-						<i class="fa fa-angle-right" aria-hidden="true"> </i> 
-					</a>
-					<center>
-						<div class="toast toastRight">
-						</div>
-					</center>
 				</div>
 			</div> 
 		</div>
@@ -287,6 +265,21 @@
 			$("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
 			return false;
 		});
+
+		$(".home span").click(function() {
+	      $(".active").fadeOut(600).removeClass(".active");
+	      window.location = 'index.html';
+	    });
+
+	    $(".DBHome span").click(function() {
+	      $(".active").fadeOut(600).removeClass(".active");
+	      window.location = "http://www.dailybruin.com";
+	    });
+
+	    $(".smoke-clears span").click(function() {
+	      // $(".active").fadeOut(600).removeClass(".active");
+	      // window.location = "audio.html";
+	    });
 
 	</script>
 </html>
