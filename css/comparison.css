@@ -1,6 +1,5 @@
 .main section {
   position: relative;
-  top: -100px;
   z-index: -1;
   overflow-y: hidden;
 }
@@ -17,8 +16,7 @@
 }
 
 .main {
-  margin-bottom: -100px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .suits-quote {
@@ -35,38 +33,106 @@
 
 
 .rustic-pagination {
-  position: relative;
+/*  position: relative;
   top: 100px;
   left: 20px;
-  -webkit-transform: translateY(-50%);
+  width: 100px;
+*/  /*-webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+*/
+  width: 300px;
+  margin: auto;
 }
 
+
+
+.caption-style-1{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  .caption-style-1 li{
+    float: left;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  .caption-style-1 li:hover .caption{
+    opacity: 1;
+  }
+  .caption-style-1 img{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 4;
+  }
+  .caption-style-1 .caption{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition:all 0.45s ease-in-out;
+    -moz-transition:all 0.45s ease-in-out;
+    -o-transition:all 0.45s ease-in-out;
+    -ms-transition:all 0.45s ease-in-out;
+    transition:all 0.45s ease-in-out;
+  }
+  .caption-style-1 .blur{
+    background-color: rgba(0,0,0,0.65);
+    height: 500px;
+    width: 500px;
+    z-index: 5;
+    position: absolute;
+  }
+  .caption-style-1 .caption-text h1{
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  .caption-style-1 .caption-text{
+    z-index: 10;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+
+  .single-img {
+    width:50%;
+  }
+
+  .img-pair-container ul li {
+    float:left;
+  }
+
+
 span.rustic-pagination-point {
+
   box-sizing: border-box;
   height: 16px;
+  float: left;
   width: 16px;
-  border-radius: 50%;
-  border: 3px solid #fff;
+  border-radius: 100%;
+  border: 3px solid #595959;
   opacity: .4;
   display: block;
-  margin: 10px 0;
+  margin: 10px 20px;
   cursor: pointer;
   background: 0 0;
   -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out
+  transition: all .2s ease-in-out;
 }
 
-span.rustic-pagination-point {
+/*span.rustic-pagination-point {
   height: 12px;
   width: 12px;
   margin: 8px 0
-}
+}*/
 
 
 span.rustic-pagination-point.active {
-  background: #fff;
+  background: #595959;
   opacity: 1
 }
 
