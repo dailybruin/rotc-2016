@@ -61,15 +61,21 @@
 
 				<div class="main large-8 small-8 large-centered columns">
 					<div class=" rustic-pagination">
-						<span class="rustic-pagination-point active"></span>
-						<span class="rustic-pagination-point"></span>
-						<span class="rustic-pagination-point"></span>
-						<span class="rustic-pagination-point"></span>
-						<span class="rustic-pagination-point"></span>
+						<span class="rustic-pagination-point one active"></span>
+						<span class="rustic-pagination-point two"></span>
+						<span class="rustic-pagination-point three"></span>
+						<span class="rustic-pagination-point four"></span>
+						<span class="rustic-pagination-point five"></span>
 					</div>
 					<section class="show">
 						<img src="http://dailybruin.com/images/galleries/rotc2/web.ns_.portrait3.KC_.jpg">
 						<img src="http://dailybruin.com/images/galleries/rotc2/web.ns_.Barrantes.KC_.jpg">
+						<div class="suits-quote first">
+							<p>Louis Bethge, second-year economics and Russian studies student: "In hockey if the other team is throwing arms, hitting us with the sticks, I’m gonna get riled up. I don’t feel bad for being aggressive because they were coming for me so I come for them. I think it’s kind of why I like the military; I don’t really want to hurt anybody but if you come after me, you better be darn sure than I’m coming after you. You know I won’t start a fight, but you’re darn sure I’ll finish one.”</p>
+						</div>
+						<div class="suits-quote second">
+							<p>“Outside of ROTC it's mostly school. I do a lot of IM sports and hockey and I’m a really competitive person so sports are a good way to kind of release that. You really bond with people through sports. I don’t necessarily play to win. I play to have fun but there’s nothing more fun than winning so it’s hard to beat that. [Sports] are a good way to have fun and it gets your mind off things, especially when you have school stuff to do. I’m from Maryland on the East Coast. My dad is from Buffalo in New York so when I was younger my dad had me play roller hockey. I tried basketball because I’m really tall; unfortunately basketball is not a contact sport so that didn’t last very long. So I went back to hockey and I played for six years before coming here."</p>
+						</div>
 					</section>
 					<section> 
 			        </section>
@@ -97,11 +103,20 @@
 	<script src="js/rustic.js"></script>
 	<script>
 		$('.main section').hide();
+		$('.suits-quote').hide();
 		$('.show').show();
 		$('.main section').css("height", $(window).height()*.7);
 		$('.rustic-pagination').css("top", $('.main section').height()/2); 
 
-		
+		$('.main').mouseenter(function() {
+			$('.show .first').css("top", -($('.show .first').height()+20));
+			$('.show .second').css("top", -($('.show .second').height()+20));
+			$('.show .suits-quote').fadeIn();
+		});
+
+		$('.main').mouseleave(function() {
+			$('.show .suits-quote').fadeOut();
+		});
 
 		var stories = {
 			"one": "ROTC",
