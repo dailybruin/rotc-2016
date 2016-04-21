@@ -39,7 +39,7 @@
 	
 
 		<!-- Radio Story: Cadet Diary -->
-		<div class="row transcript" id="radio_story">
+		<div class="row transcript" id="comparisons-story">
 			<div class="row top-nav">
 				<div class="columns large-4 small-4 DBHome"><span class="nav-links"><i class="fa fa-angle-double-left" aria-hidden="true">&nbsp;</i>Daily Bruin</span></div>
 				<div class="columns large-4 small-4 home"><span class="nav-links"><i class="fa fa-home" aria-hidden="true">&nbsp;</i>Home</span></div>
@@ -60,13 +60,14 @@
 				</div>
 
 				<div class="main large-8 small-8 large-centered columns">
-					<div class=" rustic-pagination">
-						<span class="rustic-pagination-point active one"></span>
-						<span class="rustic-pagination-point two"></span>
-						<span class="rustic-pagination-point three"></span>
-						<span class="rustic-pagination-point four"></span>
-						<span class="rustic-pagination-point five"></span>
+					<div class="rustic-pagination">
+						<span class="rustic-pagination-point active one">&nbsp;</span>
+						<span class="rustic-pagination-point two">&nbsp;</span>
+						<span class="rustic-pagination-point three">&nbsp;</span>
+						<span class="rustic-pagination-point four">&nbsp;</span>
+						<span class="rustic-pagination-point five">&nbsp;</span>
 					</div>
+					<hr>
 					<section id="one" class="show">
 						<ul class="caption-style-1">
 							<li>
@@ -153,7 +154,7 @@
 		$('.suits-quote').hide();
 		$('.show').show();
 		$('.main section').css("height", $(window).height()*.7);
-		$('.rustic-pagination').css("top", $('.main section').height()/2); 
+		// $('.rustic-pagination').css("top", $('.main section').height()/2); 
 
 		$(".one").click(function() {
 			$(".active").removeClass("active");
