@@ -1,6 +1,5 @@
 .main section {
   position: relative;
-  top: -100px;
   z-index: -1;
   overflow-y: hidden;
 }
@@ -17,8 +16,7 @@
 }
 
 .main {
-  margin-bottom: -100px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .suits-quote {
@@ -35,38 +33,43 @@
 
 
 .rustic-pagination {
-  position: relative;
+/*  position: relative;
   top: 100px;
   left: 20px;
-  -webkit-transform: translateY(-50%);
+  width: 100px;
+*/  /*-webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+*/
+  width: 300px;
+  margin: auto;
 }
 
-span.rustic-pagination-point {
+.rustic-pagination-point {
   box-sizing: border-box;
   height: 16px;
+  float: left;
   width: 16px;
-  border-radius: 50%;
-  border: 3px solid #fff;
+  border-radius: 100%;
+  border: 3px solid #595959;
   opacity: .4;
   display: block;
-  margin: 10px 0;
+  margin: 10px 20px;
   cursor: pointer;
   background: 0 0;
   -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out
+  transition: all .2s ease-in-out;
 }
 
-span.rustic-pagination-point {
+/*span.rustic-pagination-point {
   height: 12px;
   width: 12px;
   margin: 8px 0
-}
+}*/
 
 
 span.rustic-pagination-point.active {
-  background: #fff;
+  background: #595959;
   opacity: 1
 }
 
