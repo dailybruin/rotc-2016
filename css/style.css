@@ -179,20 +179,44 @@ ul{
   font-size: 22px;
   margin-left: -4px;
   position: relative;
-  width: 227px;
+  width: 33%;
   height: 40px;
   text-align: center;
   font-family: 'Patua One', cursive;
   /*border-radius: 15px 50px 30px 5px;*/
 }
 .tab-title-r {
-  font-size: 22px;
+  font-size:22px;
   margin-left: -4px;
   position: relative;
-  width: 340px;
+  width: 50%;
   height: 40px;
   text-align: center;
   font-family: 'Patua One', cursive;
+}
+
+@media only screen and (max-width: 45em) {
+    .tab-title-r {
+      font-size: 20px;
+      margin-left: -4px;
+      position: relative;
+      width: 100%;
+      height: 40px;
+      text-align: center;
+      font-family: 'Patua One', cursive;
+    }
+}
+
+@media only screen and (min-width: 45.063em) and (max-width: 72em){
+      .tab-title-r {
+        font-size: 19px;
+        margin-left: -4px;
+        position: relative;
+        width: 50%;
+        height: 40px;
+        text-align: center;
+        font-family: 'Patua One', cursive;
+      }
 }
 #linebreak {
 	text-align: center;
@@ -261,6 +285,10 @@ ul{
 #r1 {
   background-color: #DCDCDC;
 }
+
+#t1 {
+  background-color: #DCDCDC;
+}
 	
 #panel1 {
   background-color: #8FBC8F;
@@ -322,6 +350,10 @@ figure .credit {
 #radio1 {
 }
 #radio2 {
+  display: none;
+}
+
+#tab-gallery {
   display: none;
 }
 
