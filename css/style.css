@@ -111,9 +111,9 @@ article, aside, details, figure, footer, header, hgroup, main, menu, nav, sectio
   cursor: pointer;
 }
 
-#story_two {
+/*#story_two {
   display: inline-block;
-}
+}*/
 
 .subheader-one {
 	padding: 30px;
