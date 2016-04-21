@@ -1,5 +1,5 @@
 # rotc-2016
 
-### daily bruin
-#### contributers: anumat, jimin, stacy
-#### pm: jennifer
+## daily bruin
+pm: jennifer
+contributers: anumat, jimin, stacy
