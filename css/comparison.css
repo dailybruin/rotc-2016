@@ -1,3 +1,26 @@
+h1 {
+  font-family: 'Patua One', cursive;
+  display: inline;
+}
+h2 {
+  padding-left: 20px;
+  font-family: 'Patua One', cursive;
+  display: inline;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'Patua One', cursive;
+  font-size: .9em;
+  display: inline;
+}
+#creds {
+  font-size: .7em;
+  display: inline;
+  padding-left: 15px;
+}
+
 .main section {
   position: relative;
   z-index: -1;
