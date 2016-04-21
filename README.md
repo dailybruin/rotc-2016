@@ -2,4 +2,6 @@
 
 ## daily bruin
 pm: jennifer
+
+
 contributers: anumat, jimin, stacy
