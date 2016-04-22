@@ -138,6 +138,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         // Fix problem where it switches to radio page when gallery is closed
         $(".columns.large-4.small-4.radio").css("pointer-events", "none");
+        $(".columns.large-4.small-4.comparisons").css("pointer-events", "none");
 
         // define options (if needed)
         options = {
@@ -189,9 +190,25 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         
         gallery.listen('close', function() {
             // console.log("hey julien");
-            setTimeout(function() {
-                $(".columns.large-4.small-4.radio").css("pointer-events", "all");
-            }, 500);
+            // setTimeout(function() {
+            //     $(".columns.large-4.small-4.radio").css("pointer-events", "all");
+            // }, 500);
+            // setTimeout(function() {
+            //     $(".columns.large-4.small-4.comparisons").css("pointer-events", "all");
+            // }, 500);
+            var location = window.document.location;
+
+            var preventNavigation = function () {
+            var originalHashValue = location.hash;
+
+            window.setTimeout(function () {
+                location.hash = 'preventNavigation' + ~~ (9999 * Math.random());
+                location.hash = originalHashValue;
+            }, 0);
+        };
+
+        window.addEventListener('beforeunload', preventNavigation, false);
+        window.addEventListener('unload', preventNavigation, false);
         });
 
         gallery.init();

@@ -4,7 +4,6 @@
 	    <meta charset="utf-8" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-      <title>ROTC</title>
       <link rel="stylesheet" type="text/css" href="css/pfStyle.css" />
       <link href='http://fonts.googleapis.com/css?family=Dosis:200,400,700' rel='stylesheet' type='text/css'>
       <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
@@ -41,45 +40,7 @@
 	</head>
 
   <body>
-  <div class="container active">
-      <div id="slick">
-        <div>
-          <div class="img--holder story" id="one" style="background-image: url(http://dailybruin.com/images/2016/04/web.news_.rotc_.29.KC_.jpg);">
-            <div class="header-one">
-            <h1 id="title">Boots on the Ground</h1>
-            </div>
-            <div class="subheader-one">
-              <p>Imagine waking up at 4:30 a.m. Imagine staying up all night to prepare against an ambush.</p>
-              <p>To be a soldier is to give up some of comforts and joys of an everyday life. Some of the Daily Bruin staffers followed the Bruin Battalion, a group of ROTC students administered out of UCLA, as it traveled to Camp Pendleton for a four day of combat training.</p>    
-            </div>
-            <div class="read-more-button"> <b>Click to read more </b></div>
-          </div>
-        </div>
-
-        <div>
-          <!-- id="two" --> 
-          <div class="img--holder story" id="two" style="background-image: url(http://dailybruin.com/images/2016/04/web.news_.rotc_.1.KC_.jpg);">
-            <div class="header-one">
-              <h1 id="title">When the smoke clears</h1>
-            </div>
-            <div class="subheader-two">
-              <p>When the smoke clears and the guns go quiet, what's left are the people.  Here is a collection of the stories behind the uniforms.</p>
-            </div>
-            <div class="read-more-button"> <b>Click to read more </b></div>
-          </div>
-        </div>
-
-        <div>
-          <!-- id="three" --> 
-          <div class="img--holder story" style="background-image: url(http://dailybruin.com/images/2016/04/web.news_.rotc_.20.KC_.jpg);">
-          <div class="header-two">
-            <h1 id="title">Coming soon...</h1>
-            <p>Simultaneous Membership Program story and more.</p>
-          </div>
-          </div>
-        </div>
-    </div>
-    </div>
+  
 
     <!-- Floating arrows as nav on the side -->
 
@@ -661,7 +622,7 @@
 
     $(".home span").click(function() {
       $(".active").fadeOut(600).removeClass(".active");
-      location.reload();
+      window.location = "front.html";
     });
 
     $(".DBHome span").click(function() {
