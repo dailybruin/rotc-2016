@@ -154,6 +154,10 @@ article, aside, details, figure, footer, header, hgroup, main, menu, nav, sectio
 	padding-bottom: 15px;
 }
 
+.divider {
+	height: 50%;
+}
+
 .text{
   padding: 100px;
 }
