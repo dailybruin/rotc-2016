@@ -125,7 +125,7 @@ article, aside, details, figure, footer, header, hgroup, main, menu, nav, sectio
 }
 .subheader-two {
 	margin-top: 300px;
-	padding: 30px;
+	padding: 30px 30px 30px 60px;
 	width: 100%;
   background-color: rgba(255, 255, 255, 0.6);
 }
@@ -145,7 +145,7 @@ article, aside, details, figure, footer, header, hgroup, main, menu, nav, sectio
 	margin-bottom: 200px;
 }
 .header-two {
-	padding: 90px 50px 100px 700px;
+	padding: 90px 50px 100px 800px;
 }
 #title {
 	font-family: 'Patua One', cursive;
