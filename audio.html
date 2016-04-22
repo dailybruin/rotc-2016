@@ -36,6 +36,18 @@
 
 	<body>
 	
+	<!-- nav left -->
+	<div class="large-2 small-2 columns nav leftie"> 
+        &nbsp;
+        <a curr="one" dest= "three" class="nav_left" href="#">
+          <i class="fa fa-angle-left" aria-hidden="true"> </i> 
+        </a>
+        <center>
+          <div class="toast toastLeft">
+          </div>
+        </center>
+      </div>
+
 
 	<!-- Radio Story: Cadet Diary -->
     <div class="row transcript" id="radio_story">
@@ -385,6 +397,13 @@
     </footer>
 
 <script> 
+	$(".nav_left").css("top", $(window).height()/2 - 50);
+	$(".nav_left").css("left", $(window).width()/8 - 50);
+
+	$(".nav_left").click(function() {
+		window.location = "index.html";
+      return false;
+    }); 
 	// radio tabs
 	$("#r2").click(function(){
 		$("#radio1").hide();
