@@ -35,6 +35,18 @@
 	</head>
 
 	<body>
+		<!-- nav left -->
+	<div class="large-2 small-2 columns nav leftie"> 
+        &nbsp;
+        <a curr="one" dest= "three" class="nav_left" href="#">
+          <i class="fa fa-angle-left" aria-hidden="true"> </i> 
+        </a>
+        <center>
+          <div class="toast toastLeft">
+          </div>
+        </center>
+      </div>
+
 		<!-- Radio Story: Cadet Diary -->
 		<div class="row transcript" id="comparisons-story">
 			<div class="row top-nav">
@@ -219,7 +231,7 @@
 		});
 
 		$(".nav_left").css("top", $(window).height()/2 - 50);
-		$(".nav_right").css("top", $(window).height()/2 - 50);
+        $(".nav_left").css("left", $(window).width()/8 - 50);
 
 		$(".nav_left").mouseenter(function() {
 			var destStoryNum = $(this).attr("dest");
@@ -269,6 +281,11 @@
 			$("#story_" + destStoryNum).delay(900).fadeIn(900).addClass("active");
 			return false;
 		});
+
+		$(".nav_left").click(function() {
+        window.location = "profile.html";
+        return false;
+      }); 
 
 	$(".home span").click(function() {
  	      $(".active").fadeOut(600).removeClass(".active");
