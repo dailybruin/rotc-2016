@@ -159,7 +159,7 @@ article, aside, details, figure, footer, header, hgroup, main, menu, nav, sectio
 }
 
 .stories {
-	display: none;
+	/*display: none;*/
 }
 
 .tab-title {
