@@ -15,7 +15,7 @@ jQuery(function($) {
     var Application = {
 
         settings: {
-            sliderAutoplaySpeed: 3600,
+            sliderAutoplaySpeed: 6600,
             sliderSpeed: 400
         },
 
